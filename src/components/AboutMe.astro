@@ -1,0 +1,46 @@
+---
+import { Icon } from 'astro-icon/components';
+import Card from './Card/index.astro';
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-6" title="About me">
+  <div class="flex flex-col gap-2">
+    <div class="text-sm font-regular">
+      <p class="p-margin-bottom">
+        Hi, I'm Nicolás, a front-end software developer from Argentina.
+        <br />
+        My primary tools of choice includes:
+      </p>
+      <!-- <br /> -->
+      <ul class="list-disc list-inside">
+        <li>JavaScript</li>
+        <li>ReactJS (4+ years)</li>
+        <li>Redux and Redux Toolkit</li>
+        <li>ReactRouter</li>
+        <li>TypeScript</li>
+        <li>Angular (8+ years)</li>
+        <li>Nodejs</li>
+      </ul>
+    </div>
+    <p class="text-sm font-light">
+      If you are interested to see some examples of my coding skills, you can
+      take a look at my github repos list at
+      <a
+        href="https://github.com/stars/mocca-dev/lists/portfolio"
+        target="_blanck"
+        class="text-primary-500 external-link"
+        ><span>my portfolio</span><Icon
+          name="ri:arrow-right-up-line"
+          class=""
+        /></a
+      >. Here you will find 8 repos of 8 side projects that I built to practice
+      and to materialize some of my ideas.Please, don't forget to take a look at
+      the Readme.md file of each project to get more info about it.
+    </p>
+    <!-- <p class="text-sm font-light">
+      While I have some preferred tools, I always choose the best one for the
+      job, even if it's not on my usual list. My goal is to find the right
+      solution for each project.
+    </p> -->
+  </div>
+</Card>

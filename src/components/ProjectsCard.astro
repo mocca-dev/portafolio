@@ -1,0 +1,56 @@
+---
+import Card from './Card/index.astro';
+---
+
+<Card
+  colSpan="lg:col-span-2"
+  rowSpan="md:row-span-2 gap-4"
+  title="My top 3 apps"
+>
+  <div class="h-full">
+    <div class="flex mt-3 justify-center gap-10 w-full top-padding">
+      <a
+        href="https://infohub.vercel.app"
+        target="_blank"
+        class="flex flex-col items-center"
+      >
+        <img
+          class="app-logo"
+          src="/infohub.png"
+          height="35px"
+          width="35px"
+          alt=""
+        />
+        <h2>InfoHub</h2>
+      </a>
+      <a
+        href="https://lotapp.surge.sh"
+        target="_blank"
+        class="flex flex-col items-center"
+      >
+        <img
+          class="app-logo"
+          src="/isoLot.png"
+          height="35px"
+          width="35px"
+          alt=""
+        />
+        <h2>Lot!</h2>
+      </a>
+      <a
+        href="https://horariovillarino.mocca.vercel.app"
+        target="_blank"
+        class="flex flex-col items-center"
+      >
+        <img
+          class="app-logo"
+          src="/319.png"
+          height="35px"
+          width="35px"
+          alt=""
+        />
+        <h2>Horarios 319</h2>
+      </a>
+    </div>
+  </div>
+</Card>
